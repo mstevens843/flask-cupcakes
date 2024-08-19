@@ -1,0 +1,24 @@
+<!-- Cupcake List -->
+<ul id="cupcakes-list">
+    <!-- cupcakes go here -->
+</ul>
+
+<!-- Popup -->
+<div id="details-popup" class="popup" style="display:none;">
+    <div class="popup-content">
+        <h2>Edit Cupcake</h2>
+        <form id="popup-update-form">
+            <input type="hidden" id="popup-cupcake-id">
+            <label for="popup-flavor">Flavor:</label>
+            <input type="text" id="popup-flavor" required><br>
+            <label for="popup-size">Size:</label>
+            <input type="text" id="popup-size" required><br>
+            <label for="popup-rating">Rating:</label>
+            <input type="number" id="popup-rating" required><br>
+            <label for="popup-image">Image URL:</label>
+            <input type="text" id="popup-image"><br>
+            <button type="submit">Update Cupcake</button>
+        </form>
+        <button id="popup-delete">Delete Cupcake</button>
+    </div>
+</div>
